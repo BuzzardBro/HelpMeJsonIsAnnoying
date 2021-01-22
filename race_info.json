@@ -4,19 +4,12 @@
             "TEMP": [
                 {
                     "Race_Name": "template",
-                    "Movement": null,
                     "Hit_Dice": null,
                     "AC": null,
                     "HP": null,
                     "Stress": null,
                     "Ki": null,
                     "Mana": null,
-                    "Strlvl": null,
-                    "Dexlvl": null,
-                    "Intlvl": null,
-                    "Wislvl": null,
-                    "Rhelvl": null,
-                    "Prof": null,
                     "Bleeding": null,
                     "Element": null,
                     "Fear": null,
@@ -51,6 +44,7 @@
                     "Virtue": null,
                     "Will": null,
                     "Special?": false
+                    "Draconic": null,
                 }
             ]
         }
@@ -63,9 +57,9 @@
                     "Hit_Dice": 6,
                     "AC": 10,
                     "HP": "+10",
-                    "Magic": "+2",
                     "Wither": "+3",
-                    "Ability": 1
+                    "Ability": 1,
+                    "Special?": "false"
                 }
             ],
             "COLONIAL HUMAN": [
@@ -73,10 +67,11 @@
                     "Race_Name": "Colonial Human",
                     "Hit_Dice": 6,
                     "AC": 10,
-                    "Magic": "+1",
-                    "Wither": "+3",
-                    "Ability": 1,
-                    "Stress": "+20"
+                    "HP": null,
+                    "Stress": 20,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
                 }
             ],
             "ELDAR HUMAN": [
@@ -84,11 +79,11 @@
                     "Race_Name": "Eldar Human",
                     "Hit_Dice": 6,
                     "AC": 10,
-                    "Wither": "+4",
-                    "Magic": "-4",
-                    "Ability": 1,
-                    "HP": "+5",
-                    "Stress": "+10"
+                    "HP": 5,
+                    "Stress": 10,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
                 }
             ],
             "ORIENTAL HUMAN": [
@@ -96,57 +91,46 @@
                     "Race_Name": "Oriental Human",
                     "Hit_Dice": 6,
                     "AC": 10,
-                    "Wither": "+4",
-                    "Magic": "-4",
-                    "Ability": 1,
-                    "Ki": "3"
+                    "HP": 5,
+                    "Stress": 10,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
                 }
             ],
             "GULF HUMAN": [
                 {
                     "Race_Name": "Gulf Human",
-                    "Hit_Dice": 6,
-                    "AC": 10,
-                    "Wither": "+4",
-                    "Plague": "+1",
-                    "Ability": 1,
-                    "Prof": "+1",
-                    "Operating": "+3"
+                    "Hit_Dice": null,
+                    "AC": null,
+                    "HP": null,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
                 }
             ],
             "NORTHMEN": [
                 {
                     "Race_Name": "Northmen",
-                    "Hit_Dice": 6,
-                    "AC": 10,
-                    "Intlvl": "-4",
-                    "Plague": "+3",
-                    "Strlvl;": "+2",
-                    "Element": "Adv Cold",
+                    "Hit_Dice": null,
+                    "AC": null,
+                    "HP": null,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
                     "Special?": true
                 }
             ],
             "HALFLING": [
                 {
                     "Race_Name": "Halfling",
-                    "Hit_Dice": 4,
-                    "AC": 8,
-                    "Dexlvl": "+2",
-                    "Magic": "-4",
-                    "Strlvl": "-4",
-                    "Plague": "+2",
-                    "Special?": true
-                }
-            ],
-            "Illithid": [
-                {
-                    "Race_Name": "Illithid",
-                    "Hit_Dice": 6,
-                    "AC": 8,
-                    "Dexlvl": "+2",
-                    "Magic": "-4",
-                    "Strlvl": "-4",
-                    "Plague": "+2",
+                    "Hit_Dice": null,
+                    "AC": null,
+                    "HP": null,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
                     "Special?": true
                 }
             ]
@@ -320,16 +304,16 @@
             "BASTION_DWARF": [
                 {
                     "Race_Name": "Bastion Dwarf",
-                    "Hit_Dice": 8,
-                    "AC": 11,
-                    "HP": "1d10",
+                    "Hit_Dice": 8
+                    "AC": 11
+                    "HP": "1d10"
                     "Strlvl": "4",
                     "Intlvl": "1",
                     "Dexlvl": "-3",
                     "Arcane": "-5",
                     "Movement": "3",
                     "Special?": true
-
+                            
                 }
             ]
         }
@@ -343,8 +327,8 @@
                     "AC": 12,
                     "Plague": "-4",
                     "Draconic": "10",
-                    "Fear": "2",
-                    "Element": "3",
+                    "Fear": "2"
+                    "Element": "3"
                     "Special?": true
                 }
             ],
@@ -355,7 +339,7 @@
                     "AC": 10,
                     "Plague": "-7",
                     "Draconic": "13",
-                    "Intlvl": "-4",
+                    "Intlvl": "-4"
                     "Special?": true
                 }
             ]
@@ -366,118 +350,113 @@
             "CENTAURS": [
                 {
                     "Race_Name": "Centaur",
-                    "Hit_Dice": 8,
+                    "Hit_Dice": 6,
                     "AC": 10,
-                    "Strlvl": "+2",
-                    "Dexlvl": "+2",
-                    "Nature": "+6",
-                    "Intlvl": "-3",
-                    "Arcane": "-4",
-                    "Special?": true
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
                 }
             ],
             "MINOTAURS": [
                 {
                     "Race_Name": "Minotaurs",
-                    "Hit_Dice": 8,
-                    "AC": 12,
-                    "HP": "+20",
-                    "Strlvl": "+6",
-                    "Nature": "+3",
-                    "Intlvl": "-5",
-                    "Dexlvl": "-3",
-                    "Stealth": "-4",
-                    "Arcane": "-2",
-                    "Special?": true
+                    "Hit_Dice": 6,
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
                 }
             ],
             "SATYR": [
                 {
                     "Race_Name": "Satyr",
                     "Hit_Dice": 6,
-                    "AC": 9,
-                    "Strlvl": "+2",
-                    "Rhelvl": "+4",
-                    "Charm": "+2",
-                    "Nature": "+7",
-                    "Intlvl": "-3",
-                    "Wislvl": "-3",
-                    "Special?": true
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
                 }
             ]
         }
     ],
     "OTHER_REALMS": [
         {
-            
             "ANGEL": [
                 {
                     "Race_Name": "Angel",
                     "Hit_Dice": 6,
-                    "AC": "+10",
-                    "Wislvl": "+2",
-                    "Wither": "+5",
-                    "Magic": "+2",
-                    "Special?": true
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
                 }
             ],
             "ARISING HELLSPAWN": [
                 {
                     "Race_Name": "Arising Hellspawn",
                     "Hit_Dice": 6,
-                    "AC": "+14",
-                    "Wislvl": "-3",
-                    "Wither": "+4",
-                    "Virtue": "-6",
-                    "Special?": true
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
                 }
             ],
             "DARK WRAITH": [
                 {
                     "Race_Name": "Dark Wraith",
                     "Hit_Dice": 6,
-                    "AC": "+11",
-                    "Magic": "+5",
-                    "Element": "+5",
-                    "Reaction": "+2",
-                    "Persuasion": "-4",
-                    "Intimidation": "+2",
-                    "Special?": true
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
                 }
             ],
             "FALLEN ANGEL": [
                 {
                     "Race_Name": "Fallen Angel",
                     "Hit_Dice": 6,
-                    "AC": "+10",
-                    "Element": "+1",
-                    "Magic": "+3",
-                    "Wither": "+4",
-                    "WISlvl": "+3",
-                    "Special?": true
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
                 }
             ],
             "HELLSPAWN": [
                 {
                     "Race_Name": "Hellspawn",
                     "Hit_Dice": 6,
-                    "AC": "+14",
-                    "WISlvl": "-3",
-                    "Wither": "+4",
-                    "Virtue": "-10",
-                    "Special?": true
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
                 }
             ],
             "LIGHTSWORN": [
                 {
                     "Race_Name": "Lightsworn",
                     "Hit_Dice": 6,
-                    "AC": "+10",
-                    "Bleed": "+3",
-                    "Magic": "+4",
-                    "Wither": "-6",
-                    "Will": "+20",
-                    "Special?": true
+                    "AC": 10,
+                    "HP": 10,
+                    "Stress": null,
+                    "Ki": null,
+                    "Mana": null,
+                    "Special?": false
                 }
             ]
         }
@@ -487,109 +466,107 @@
             "ANURAN": [
                 {
                     "Race_Name": "Anuran",
-                    "Hit_Dice": 6,
+                    "Hit_Dice": 8,
                     "AC": 10,
-                    "HP": 10,
-                    "Stress": null,
-                    "Ki": null,
-                    "Mana": null,
-                    "Special?": false
+                    "HP": "10",
+                    "Strlvl": "3",
+                    "Agility": "1",
+                    "Nature": "2",
+                    "Plague": "ADV",
+                    "Charm": "-3",
+                    "Arcane": "-2",
+                    "Intlvl": "-1",
+                    "Special?": true
                 }
             ],
             "ARCOVUS": [
                 {
                     "Race_Name": "Arcovus",
-                    "Hit_Dice": 6,
-                    "AC": 10,
-                    "HP": 10,
-                    "Stress": null,
-                    "Ki": null,
-                    "Mana": null,
-                    "Special?": false
+                    "Hit_Dice": 8,
+                    "AC": 9,
+                    "Strlvl": "1",
+                    "Dexlvl": "2",
+                    "Intlvl": "-2",
+                    "Wislvl": "-1",
+                    "Arcane": "-4",
+                    "Special?": true
                 }
             ],
             "ARIEDUNOM": [
                 {
                     "Race_Name": "Ariedunom",
                     "Hit_Dice": 6,
-                    "AC": 10,
-                    "HP": 10,
-                    "Stress": null,
-                    "Ki": null,
-                    "Mana": null,
-                    "Special?": false
+                    "AC": 8,
+                    "Dexlvl": "5",
+                    "Strlvl": "-1",
+                    "Rhelvl": "-4",
+                    "Special?": true
                 }
             ],
             "BEB'LS": [
                 {
                     "Race_Name": "Beb'ls",
-                    "Hit_Dice": 6,
-                    "AC": 10,
-                    "HP": 10,
-                    "Stress": null,
-                    "Ki": null,
-                    "Mana": null,
-                    "Special?": false
+                    "Hit_Dice": 4,
+                    "AC": 7,
+                    "Strlvl": "-4",
+                    "Intlvl": "-4",
+                    "Dexlvl": "6",
+                    "Nature": "6",
+                    "Special?": true
                 }
             ],
             "CROOKED": [
                 {
                     "Race_Name": "Crooked",
                     "Hit_Dice": 6,
-                    "AC": 10,
-                    "HP": 10,
-                    "Stress": null,
-                    "Ki": null,
-                    "Mana": null,
-                    "Special?": false
+                    "AC": 9,
+                    "Wither": "-14",
+                    "Special?": true
                 }
             ],
             "DRACONIN": [
                 {
                     "Race_Name": "Draconin",
-                    "Hit_Dice": 6,
-                    "AC": 10,
-                    "HP": 10,
-                    "Stress": null,
-                    "Ki": null,
-                    "Mana": null,
-                    "Special?": false
+                    "Hit_Dice": 8,
+                    "AC": 12,
+                    "Strlvl": "4",
+                    "Intlvl": "-6",
+                    "Special?": true
                 }
             ],
             "DRYAD": [
                 {
                     "Race_Name": "Dryad",
-                    "Hit_Dice": 6,
-                    "AC": 10,
-                    "HP": 10,
-                    "Stress": null,
-                    "Ki": null,
-                    "Mana": null,
-                    "Special?": false
+                    "Hit_Dice": 8,
+                    "AC": 11,
+                    "HP": "10",
+                    "Strlvl": "2",
+                    "Nature": "8",
+                    "Special?": true
                 }
             ],
             "EIRACHON": [
                 {
                     "Race_Name": "Eirachon",
                     "Hit_Dice": 6,
-                    "AC": 10,
-                    "HP": 10,
-                    "Stress": null,
-                    "Ki": null,
-                    "Mana": null,
-                    "Special?": false
+                    "AC": 9,
+                    "Dexlvl": "6",
+                    "Wislvl": "-2"
+                    "Intlvl": "-3"
+                    "Magic": "-4"
+                    "Special?": true
                 }
             ],
             "ETIN": [
                 {
                     "Race_Name": "Etin",
-                    "Hit_Dice": 6,
-                    "AC": 10,
-                    "HP": 10,
-                    "Stress": null,
-                    "Ki": null,
-                    "Mana": null,
-                    "Special?": false
+                    "Hit_Dice": 8,
+                    "AC": 14,
+                    "HP": "30",
+                    "Strlvl": "5",
+                    "Dexlvl": "-4",
+                    "Intlvl": "-15"
+                    "Special?": true
                 }
             ],
             "FELINAUS": [
@@ -852,96 +829,93 @@
                 {
                     "Race_Name": "Changeling",
                     "Hit_Dice": 6,
-                    "AC": 10,
-                    "HP": 10,
-                    "Stress": null,
-                    "Ki": null,
-                    "Mana": null,
-                    "Special?": false
+                    "AC": 8,
+                    "Dexlvl": "1",
+                    "Rhelvl": "1",
+                    "Special?": true
                 }
             ],
             "VAMPIRE THRALL": [
                 {
                     "Race_Name": "Vampire Thrall",
                     "Hit_Dice": 6,
-                    "AC": 10,
-                    "HP": 10,
-                    "Stress": null,
-                    "Ki": null,
-                    "Mana": null,
-                    "Special?": false
+                    "AC": 9,
+                    "Bleeding": "Immune"
+                    "Special?": true
                 }
             ],
             "YOUNG VAMPIRE": [
                 {
                     "Race_Name": "Young Vampire",
-                    "Hit_Dice": 6,
+                    "Hit_Dice": 8,
                     "AC": 10,
-                    "HP": 10,
-                    "Stress": null,
-                    "Ki": null,
-                    "Mana": null,
-                    "Special?": false
+                    "Strlvl": "5",
+                    "Dexlvl": "2",
+                    "Wislvl": "-6",
+                    "Rhelvl": "-6",
+                    "Bleeding": "Immune"
+                    "Plague": "Immune"
+                    "Element": "Immune"
+                    "Special?": true
                 }
             ],
             "MATURE VAMPIRE": [
                 {
                     "Race_Name": "Mature Vampire",
-                    "Hit_Dice": 6,
-                    "AC": 10,
-                    "HP": 10,
-                    "Stress": null,
-                    "Ki": null,
-                    "Mana": null,
-                    "Special?": false
+                    "Hit_Dice": 8,
+                    "AC": 12,
+                    "Strlvl": "3",
+                    "Dexlvl": "2",
+                    "Wislvl": "-3",
+                    "Bleeding": "Immune"
+                    "Plague": "Immune"
+                    "Element": "Immune"
+                    "Special?": true
                 }
             ],
             "TRUE VAMPIRE": [
                 {
                     "Race_Name": "True Vampire",
-                    "Hit_Dice": 6,
-                    "AC": 10,
-                    "HP": 10,
-                    "Stress": null,
-                    "Ki": null,
-                    "Mana": null,
-                    "Special?": false
+                    "Hit_Dice": 8,
+                    "AC": 12,
+                    "Strlvl": "3",
+                    "Dexlvl": "5",
+                    "Rhelvl": "4",
+                    "Bleeding": "Immune"
+                    "Plague": "Immune"
+                    "Element": "Immune"
+                    "Special?": true
                 }
             ],
             "LYCAN": [
                 {
                     "Race_Name": "Lycan",
-                    "Hit_Dice": 6,
-                    "AC": 10,
-                    "HP": 10,
-                    "Stress": null,
-                    "Ki": null,
-                    "Mana": null,
-                    "Special?": false
+                    "Hit_Dice": 8,
+                    "AC": 11,
+                    "Strlvl": "3",
+                    "Dexlvl": "2",
+                    "Intlvl": "-2",
+                    "Rhelvl": "-2"
+                    "Special?": true
                 }
             ],
             "ULFR": [
                 {
                     "Race_Name": "Ulfr",
-                    "Hit_Dice": 6,
+                    "Hit_Dice": 8,
                     "AC": 10,
-                    "HP": 10,
-                    "Stress": null,
-                    "Ki": null,
-                    "Mana": null,
-                    "Special?": false
+                    "Strlvl": "5",
+                    "Intlvl": "-5",
+                    "Rhelvl": "-2",
+                    "Special?": true
                 }
             ],
             "MELRAKKI": [
                 {
                     "Race_Name": "Melrakki",
-                    "Hit_Dice": 6,
-                    "AC": 10,
-                    "HP": 10,
-                    "Stress": null,
-                    "Ki": null,
-                    "Mana": null,
-                    "Special?": false
+                    "Hit_Dice": 8,
+                    "AC": 8,
+                    "Special?": true
                 }
             ]
         }
