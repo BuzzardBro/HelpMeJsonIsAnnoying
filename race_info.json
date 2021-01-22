@@ -4,19 +4,12 @@
             "TEMP": [
                 {
                     "Race_Name": "template",
-                    "Movement": null,
                     "Hit_Dice": null,
                     "AC": null,
                     "HP": null,
                     "Stress": null,
                     "Ki": null,
                     "Mana": null,
-                    "Strlvl": null,
-                    "Dexlvl": null,
-                    "Intlvl": null,
-                    "Wislvl": null,
-                    "Rhelvl": null,
-                    "Prof": null,
                     "Bleeding": null,
                     "Element": null,
                     "Fear": null,
@@ -271,37 +264,55 @@
             "MOUNTAIN DWARF": [
                 {
                     "Race_Name": "Mountain Dwarf",
-                    "Hit_Dice": 6,
-                    "AC": 10,
-                    "HP": 10,
-                    "Stress": null,
-                    "Ki": null,
-                    "Mana": null,
-                    "Special?": false
+                    "Hit_Dice": 8,
+                    "AC": 11,
+                    "HP": "1d10",
+                    "Strlvl": "3",
+                    "Intlvl": "1",
+                    "Dexlvl": "-3",
+                    "Arcane": "-2",
+                    "Movement": "3",
+                    "Special?": true
                 }
             ],
             "HILL DWARF": [
                 {
                     "Race_Name": "Hill Dwarf",
-                    "Hit_Dice": 6,
-                    "AC": 10,
-                    "HP": 10,
-                    "Stress": null,
-                    "Ki": null,
-                    "Mana": null,
-                    "Special?": false
+                    "Hit_Dice": 8,
+                    "AC": 11,
+                    "Strlvl": "3",
+                    "Wislvl": "1",
+                    "Dexlvl": "-2",
+                    "Persuasion": "-2",
+                    "Arcane": "-2",
+                    "Special?": true
                 }
             ],
             "DUERGAR": [
                 {
                     "Race_Name": "Duergar",
-                    "Hit_Dice": 6,
-                    "AC": 10,
-                    "HP": 10,
-                    "Stress": null,
-                    "Ki": null,
-                    "Mana": null,
-                    "Special?": false
+                    "Hit_Dice": 8,
+                    "AC": 11,
+                    "Strlvl": "4",
+                    "Intlvl": "-2",
+                    "Dexlvl": "-3",
+                    "Movement": "3",
+                    "Special?": true
+                }
+             ],
+            "BASTION_DWARF": [
+                {
+                    "Race_Name": "Bastion Dwarf",
+                    "Hit_Dice": 8
+                    "AC": 11
+                    "HP": "1d10"
+                    "Strlvl": "4",
+                    "Intlvl": "1",
+                    "Dexlvl": "-3",
+                    "Arcane": "-5",
+                    "Movement": "3",
+                    "Special?": true
+                            
                 }
             ]
         }
